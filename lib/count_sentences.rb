@@ -19,5 +19,9 @@ class String
 
   def count_sentences
 
+    self.split(/[.!?]\s/)
+
+    # "This is a string! It has three sentences. Right?".count_sentences
+    # # => 3
   end
 end
